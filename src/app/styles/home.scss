@@ -1,7 +1,9 @@
 .container {
   padding: 40px 32px;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  gap: 24px;
+  justify-items: center;
+  grid-template-columns: repeat(auto);
   grid-template-areas:
     "header"
     "btns"
