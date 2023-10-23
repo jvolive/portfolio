@@ -1,5 +1,8 @@
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
+import { EmailIcon } from "./components/icons/email-icon";
+import { Info } from "./components/information/information";
+import { SocialBtns } from "./components/social-btns/social-btns";
 
 import "./styles/home.scss";
 
@@ -8,24 +11,13 @@ export default function Home() {
     <main className="container">
       <Header />
       <Experience />
-
-      <div className="infos">
-        <h3>Linguas</h3>
-        <div className="languages-info">
-          <span> EN - Intermediario</span>
-          <span> PT-BR - Nativo</span>
-        </div>
-        <h3>Formação</h3>
-        <div className="educational-info">
-          <span>🎓</span>
-          <span>
-            Engenharia da computação - Universidade Centro Verde Maringa
-          </span>
-        </div>
-      </div>
+      <Info />
       <div className="buttons">
-        <div className="social"></div>
-        <button> Entre em contato</button>
+        <SocialBtns />
+        <a className="btn-primary" href="">
+          Entre em contato
+          <EmailIcon />
+        </a>
       </div>
     </main>
   );
