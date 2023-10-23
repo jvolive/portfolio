@@ -1,5 +1,5 @@
-import { GitHubIcon } from "../icons/github-icon";
-import { LinkedInIcon } from "../icons/linkedin";
+import { GitHubIcon } from "../../icons/github-icon";
+import { LinkedInIcon } from "../../icons/linkedin";
 
 import "./social-btns.scss";
 

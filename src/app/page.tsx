@@ -1,9 +1,8 @@
 import { Experience } from "./components/experience/experience";
 import { Header } from "./components/header/header";
-import { EmailIcon } from "./components/icons/email-icon";
 import { Info } from "./components/information/information";
-import { SocialBtns } from "./components/social-btns/social-btns";
-//import Clipboard from "./components/clipboard/clipboard";
+import { SocialBtns } from "./components/buttons/social/social-btns";
+import { EmailBtns } from "./components/buttons/email/email-btns";
 
 import "./styles/home.scss";
 
@@ -15,11 +14,7 @@ export default function Home() {
       <Info />
       <div className="buttons">
         <SocialBtns />
-        <a className="btn-primary" href="">
-          Entre em contato
-          {/* <Clipboard /> */}
-          <EmailIcon />
-        </a>
+        <EmailBtns />
       </div>
     </main>
   );

@@ -8,10 +8,8 @@ export function Experience() {
     <div className="experience">
       <SectionTitle text="Experiencia" />
       <p>
-        Com experiência em C#, JavaScript e React, venho me aprimorando em
-        habilidades técnicas. Minha experiência industrial na área de papel e
-        celulose agora me auxilia na área de Tecnologia, onde aplico minha
-        bagagem técnica para soluções criativas e otimização de processos.
+        Tenho conhecimento linguagens de programação, como C#, JavaScript e
+        React, e atualmente cursando Engenharia de Software.
       </p>
       <div className="experience-time">
         <div className="experience-language">
