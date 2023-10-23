@@ -7,7 +7,12 @@ export function Experience() {
   return (
     <div className="experience">
       <SectionTitle text="Experiencia" />
-      <p>Tenho 1 ano de experiência trabalhando com .Net como freelancer</p>
+      <p>
+        Com experiência em C#, JavaScript e React, venho me aprimorando em
+        habilidades técnicas. Minha experiência industrial na área de papel e
+        celulose agora me auxilia na área de Tecnologia, onde aplico minha
+        bagagem técnica para soluções criativas e otimização de processos.
+      </p>
       <div className="experience-time">
         <div className="experience-language">
           <Image
