@@ -3,6 +3,7 @@ import { Header } from "./components/header/header";
 import { EmailIcon } from "./components/icons/email-icon";
 import { Info } from "./components/information/information";
 import { SocialBtns } from "./components/social-btns/social-btns";
+//import Clipboard from "./components/clipboard/clipboard";
 
 import "./styles/home.scss";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <SocialBtns />
         <a className="btn-primary" href="">
           Entre em contato
+          {/* <Clipboard /> */}
           <EmailIcon />
         </a>
       </div>

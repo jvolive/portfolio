@@ -7,7 +7,7 @@ export function Experience() {
   return (
     <div className="experience">
       <SectionTitle text="Experiencia" />
-      <p>Tenho 1 ano de experiencia trabalhando com .Net como freelancer</p>
+      <p>Tenho 1 ano de experiência trabalhando com .Net como freelancer</p>
       <div className="experience-time">
         <div className="experience-language">
           <Image
@@ -33,7 +33,7 @@ export function Experience() {
           />
           <div className="experience-unit">
             <div className="experience-measure measure-1">
-              <span>1 anos</span>
+              <span>1 ano</span>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ export function Experience() {
           <Image src="/React.png" alt="React" width={45} height={45} priority />
           <div className="experience-unit">
             <div className="experience-measure measure-1">
-              <span>1 anos</span>
+              <span>1 ano</span>
             </div>
           </div>
         </div>
