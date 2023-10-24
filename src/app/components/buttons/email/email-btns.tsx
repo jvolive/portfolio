@@ -10,7 +10,7 @@ export function EmailBtns() {
   const [copied, setCopied] = useState("");
   const [isCopied, setIsCopied] = useState(false);
 
-  const staticText = "teste@gmail.com"; // Altere o valor para o email desejado
+  const staticText = "contato.jvolive@gmail.com"; // Altere o valor para o email desejado
 
   const handleCopy = () => {
     if (staticText) {

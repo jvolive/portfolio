@@ -1,0 +1,62 @@
+.projects-container {
+  padding: 1.25rem;
+  margin: 3rem;
+}
+.projects-text h2 {
+  font-size: 2.25rem;
+  color: var(--text-secondary);
+  text-align: center;
+}
+.projects-text p {
+  font-size: 1.5rem;
+  text-justify: distribute-all-lines;
+  text-align: center;
+  color: var(--text-primary);
+}
+.projects-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.projects1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 3.2rem;
+}
+.projects1 h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-primary);
+  text-align: center;
+}
+.projects1 img {
+  width: 500px;
+  height: auto;
+  border: 1px solid var(--text-secondary);
+  border-radius: 10px;
+}
+.projects1 p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.projects2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects2 a {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.projects2 img {
+  width: 500px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.projects2 p {
+  font-size: 1rem;
+}

@@ -3,6 +3,7 @@ import { Header } from "./components/header/header";
 import { Info } from "./components/information/information";
 import { SocialBtns } from "./components/buttons/social/social-btns";
 import { EmailBtns } from "./components/buttons/email/email-btns";
+import { Projects } from "./components/projects/projects";
 
 import "./styles/home.scss";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <SocialBtns />
         <EmailBtns />
       </div>
+      <Projects />
     </main>
   );
 }
