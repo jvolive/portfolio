@@ -1,0 +1,19 @@
+.projects2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  a {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--text-secondary);
+    text-align: center;
+  }
+  img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
