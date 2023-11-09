@@ -1,10 +1,20 @@
+import Image from "next/image";
 import { SectionTitle } from "../../sectionTitle/section-title";
 
 export function Project2() {
   return (
     <div className="projects2">
-      <SectionTitle text="Em desenvolvimento..." />
-      <p>Projeto voltado para .Net em desenvolvimento</p>
+      <SectionTitle text="Dashboard WPF" />
+
+      <Image
+        src="/dashboard wpf.PNG"
+        alt="Perfil"
+        width={450}
+        height={231}
+        priority
+      />
+
+      <p>Projeto usado C# com WPF</p>
     </div>
   );
 }
