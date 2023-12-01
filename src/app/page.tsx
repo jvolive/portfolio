@@ -4,6 +4,7 @@ import { Info } from "./components/information/information";
 import { SocialBtns } from "./components/buttons/social/social-btns";
 import { EmailBtns } from "./components/buttons/email/email-btns";
 import { Projects } from "./components/projects/projects";
+import { Curriculum } from "./components/curriculum/curriculum";
 
 import "./styles/home.scss";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <div className="buttons">
         <SocialBtns />
         <EmailBtns />
+        <Curriculum />
       </div>
       <Projects />
     </main>
