@@ -27,7 +27,7 @@ export function EmailBtns() {
   return (
     <div>
       {isCopied ? (
-        <div className="notification">
+        <div className="notification-email">
           <BsCheck2All />
           Email copiado
         </div>

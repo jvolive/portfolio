@@ -4,6 +4,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./curriculum.scss";
+import { BiCopy } from "react-icons/bi";
+import { BsCheck2All } from "react-icons/bs";
 import { PdfIcon } from "../icons/pdf-icon";
 
 interface DownloadButtonProps {
@@ -31,6 +33,9 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ pdfUrl }) => {
       window.URL.revokeObjectURL(url);
 
       setDownloaded(true);
+      setTimeout(() => {
+        setDownloaded(false);
+      }, 2000);
     } catch (error) {
       console.error("Erro ao baixar o arquivo PDF:", error);
     }
@@ -38,14 +43,24 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ pdfUrl }) => {
 
   return (
     <div>
-      <button
-        className={`btn-curriculum ${downloaded ? "downloaded" : ""}`}
-        onClick={downloadPdf}
-        disabled={downloaded}
-      >
-        <PdfIcon />
-        {downloaded ? "Obrigado" : "Baixar Currículo"}
-      </button>
+      {downloaded ? (
+        <div className="notification-curriculum">
+          <BsCheck2All />
+          Obrigado
+        </div>
+      ) : (
+        <button
+          className={`btn-curriculum ${downloaded ? "downloaded" : ""}`}
+          onClick={downloadPdf}
+          disabled={downloaded}
+        >
+          <PdfIcon />
+          <span>Baixar Currículo</span>
+          <span>
+            <BiCopy />
+          </span>
+        </button>
+      )}
     </div>
   );
 };
