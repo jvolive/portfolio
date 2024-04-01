@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { SectionTitle } from "../../sectionTitle/section-title";
+import { SectionTitle } from "../../../sectionTitle/section-title";
 
 export function Project1() {
   return (
