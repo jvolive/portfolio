@@ -14,7 +14,7 @@ export function Project2() {
         priority
       />
 
-      <p>Projeto usado C# com WPF</p>
+      <p>Projeto realizado com C#, WPF</p>
     </div>
   );
 }
