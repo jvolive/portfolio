@@ -8,10 +8,7 @@ export function Project3() {
       <a href="https://newsjvolive.bohr.io/">
         <Image src="/news.png" alt="Perfil" width={450} height={231} priority />
       </a>
-      <p>
-        Projeto usando a API de{" "}
-        <a href="https://newsapi.org/">https://newsapi.org/</a>{" "}
-      </p>
+      <p>Projeto usando a API de newsapi.org</p>
     </div>
   );
 }
