@@ -2,7 +2,7 @@ import React from "react";
 import DownloadButton from "./DownloadButton";
 
 export function Curriculum() {
-  const pdfFileName = "Curriculo";
+  const pdfFileName = "curriculo";
 
   return (
     <div>

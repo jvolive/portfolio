@@ -13,8 +13,10 @@ interface DownloadButtonProps {
 
 const DownloadButton: React.FC<DownloadButtonProps> = ({ pdfUrl }) => {
   const [downloaded, setDownloaded] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const downloadPdf = async () => {
+    setError(null);
     try {
       const response = await axios.get(`/${pdfUrl}.pdf`, {
         responseType: "blob",
@@ -37,11 +39,15 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ pdfUrl }) => {
       }, 2000);
     } catch (error) {
       console.error("Erro ao baixar o arquivo PDF:", error);
+      setError(
+        "Não foi possível baixar o arquivo PDF. Tente novamente mais tarde."
+      );
     }
   };
 
   return (
     <div>
+      {error && <div className="error-message">{error}</div>}
       {downloaded ? (
         <div className="notification-curriculum">
           <BsCheck2All />
@@ -52,6 +58,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({ pdfUrl }) => {
           className={`btn-curriculum ${downloaded ? "downloaded" : ""}`}
           onClick={downloadPdf}
           disabled={downloaded}
+          aria-label="Baixar Currículo em PDF"
         >
           <PdfIcon />
           <span>Baixar Currículo</span>
