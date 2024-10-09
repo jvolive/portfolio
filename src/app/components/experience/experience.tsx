@@ -8,43 +8,72 @@ export function Experience() {
     <div className="experience">
       <SectionTitle text="Experiencia" />
       <p>
-        Tenho conhecimento linguagens de programação, como C#, JavaScript e
-        React, e atualmente cursando Engenharia de Software.
+        Sou desenvolvedor Full Stack com C# trabalhando com .NET, ASP.NET e
+        TypeScript com ReactJS.
+        <p>Também com conhecimento em PostgreSQL e Azure.</p>
       </p>
       <div className="experience-time">
-        <div className="experience-language">
-          <Image
-            src="/csharp.png"
-            alt="CSharp"
-            width={45}
-            height={45}
-            priority
-          />
-          <div className="experience-unit">
-            <div className="experience-measure measure-2">
-              <span>2 anos</span>
+        <div className="csharp">
+          <div className="experience-language">
+            <Image
+              src="/csharp.png"
+              alt="CSharp"
+              width={45}
+              height={45}
+              priority
+            />
+            <div className="experience-unit">
+              <div className="experience-measure measure-3">
+                <span>3 anos</span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="experience-language">
-          <Image
-            src="/Js.png"
-            alt="JavaScript"
-            width={45}
-            height={45}
-            priority
-          />
-          <div className="experience-unit">
-            <div className="experience-measure measure-1">
-              <span>1 ano</span>
+        <div className="dotnet">
+          <div className="experience-language">
+            <Image
+              src="/dotnet.png"
+              alt=".net"
+              width={45}
+              height={45}
+              priority
+            />
+            <div className="experience-unit">
+              <div className="experience-measure measure-3">
+                <span>3 anos</span>
+              </div>
             </div>
           </div>
         </div>
-        <div className="experience-language">
-          <Image src="/React.png" alt="React" width={45} height={45} priority />
-          <div className="experience-unit">
-            <div className="experience-measure measure-1">
-              <span>1 ano</span>
+        <div className="typescript">
+          <div className="experience-language">
+            <Image
+              src="/Ts.png"
+              alt="TypeScript"
+              width={65}
+              height={45}
+              priority
+            />
+            <div className="experience-unit">
+              <div className="experience-measure measure-2">
+                <span>2 ano</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="react">
+          <div className="experience-language">
+            <Image
+              src="/React.png"
+              alt="React"
+              width={45}
+              height={45}
+              priority
+            />
+            <div className="experience-unit">
+              <div className="experience-measure measure-2">
+                <span>2 ano</span>
+              </div>
             </div>
           </div>
         </div>

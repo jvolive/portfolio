@@ -28,9 +28,9 @@
     justify-content: center;
     gap: 8px;
 
-    img {
-      filter: grayscale(100%);
-    }
+    // img {
+    //   filter: grayscale(100%);
+    // }
 
     .experience-unit {
       width: 300px;
@@ -57,14 +57,17 @@
         font-size: 16px;
 
         &.measure-1 {
-          width: 33%;
+          width: 25%;
         }
 
         &.measure-2 {
-          width: 66%;
+          width: 50%;
         }
 
         &.measure-3 {
+          width: 75%;
+        }
+        &.measure-4 {
           width: 100%;
         }
       }
