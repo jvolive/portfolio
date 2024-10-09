@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { SectionTitle } from "../../../sectionTitle/section-title";
 
-export function Project4() {
+export function ProjectDashboard() {
   return (
-    <div className="projects4">
+    <div className="projectDashboard">
       <SectionTitle text="Dashboard Project" />
       <a href="https://dashboard-system.bohr.io/dashboard">
         <Image

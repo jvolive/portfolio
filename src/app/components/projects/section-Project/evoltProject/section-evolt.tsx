@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { SectionTitle } from "../../../sectionTitle/section-title";
 
-export function Project1() {
+export function ProjectEvolt() {
   return (
-    <div className="projects1">
+    <div className="projectEvolt">
       <SectionTitle text="Evolt Engenharia" />
       <a href="https://evoltengenharia.bohr.io/">
         <Image
@@ -14,10 +14,7 @@ export function Project1() {
           priority
         />
       </a>
-      <p>
-        Projeto usando as linguagens HTML, CSS e JavaScript. Usado o framework
-        Swiper.js
-      </p>
+      <p>Web design desenvolvido para uma empresa local.</p>
     </div>
   );
 }
