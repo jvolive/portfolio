@@ -14,7 +14,10 @@ export function ProjectDashboard() {
           priority
         />
       </a>
-      <p>Realizado um dashboard em TypeScript</p>
+      <p>
+        Realizado um dashboard em React usando TypeScript, e também desenvolvido
+        uma webAPI em ASP.NET.
+      </p>
     </div>
   );
 }
