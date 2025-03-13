@@ -1,11 +1,13 @@
 import Image from "next/image";
 import { SectionTitle } from "../../../sectionTitle/section-title";
 
+import "./section-dashboard.scss";
+
 export function ProjectDashboard() {
   return (
     <div className="projectDashboard">
       <SectionTitle text="Dashboard Project" />
-      <a href="https://dashboard-system.bohr.io/dashboard">
+      <a href="https://dashboardmvp.netlify.app">
         <Image
           src="/dashboard.png"
           alt="Perfil"
@@ -14,10 +16,7 @@ export function ProjectDashboard() {
           priority
         />
       </a>
-      <p>
-        Realizado um dashboard em React usando TypeScript, e também desenvolvido
-        uma webAPI em ASP.NET.
-      </p>
+      <p>Realizado um dashboard em React usando TypeScript.</p>
     </div>
   );
 }
